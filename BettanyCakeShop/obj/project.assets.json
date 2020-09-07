@@ -6039,11 +6039,12 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "YDsOstDxa0floIG1FHripvGdBh1XiY4X+kzDavHDrhpgitV/7GxIZHxdCiYVJqad++N4o3xOPl43pvVM6/mStg==",
+      "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8553,30 +8554,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francis.Decena\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/francisdecena/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\BettanyCakeShop\\BettanyCakeShop\\BettanyCakeShop.csproj",
+      "projectUniqueName": "/Users/francisdecena/project/BettanyCakeShop/BettanyCakeShop/BettanyCakeShop.csproj",
       "projectName": "BettanyCakeShop",
-      "projectPath": "D:\\Project\\BettanyCakeShop\\BettanyCakeShop\\BettanyCakeShop.csproj",
-      "packagesPath": "C:\\Users\\Francis.Decena\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\BettanyCakeShop\\BettanyCakeShop\\obj\\",
+      "projectPath": "/Users/francisdecena/project/BettanyCakeShop/BettanyCakeShop/BettanyCakeShop.csproj",
+      "packagesPath": "/Users/francisdecena/.nuget/packages/",
+      "outputPath": "/Users/francisdecena/project/BettanyCakeShop/BettanyCakeShop/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Francis.Decena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8630,6 +8625,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8638,7 +8639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
       }
     }
   }

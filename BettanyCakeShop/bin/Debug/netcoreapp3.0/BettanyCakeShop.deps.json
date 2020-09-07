@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_0"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -1236,7 +1236,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1245,7 +1245,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1254,7 +1254,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1861,7 +1861,7 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.6.0",
-            "fileVersion": "4.700.20.12001"
+            "fileVersion": "4.0.0.0"
           }
         },
         "compile": {
@@ -4615,7 +4615,7 @@
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YDsOstDxa0floIG1FHripvGdBh1XiY4X+kzDavHDrhpgitV/7GxIZHxdCiYVJqad++N4o3xOPl43pvVM6/mStg==",
+      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "path": "system.net.nameresolution/4.3.0",
       "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
     },
